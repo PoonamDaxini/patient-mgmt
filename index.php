@@ -6,7 +6,7 @@ require_once dirname(__FILE__) . '/config/config.php';
 require_once CLASS_DIR . 'mysqlDatabaseClass.php';
 require_once CLASS_DIR . 'userClass.php';
 session_start();
-$cookie_time = (120);
+$cookie_time = (3600*24*30);
 
 if (isset($_REQUEST['login'])) {
     $post_autologin = $_REQUEST['autologin'];
