@@ -1,7 +1,5 @@
 <?php
 
-ini_set("display_errors", "on");
-
 require_once dirname(__FILE__) . '/config/config.php';
 require_once CLASS_DIR . 'mysqlDatabaseClass.php';
 require_once CLASS_DIR . 'userClass.php';

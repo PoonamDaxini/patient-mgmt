@@ -1,4 +1,8 @@
 <?php
+//require_once '../../../jq-conig.php';
+// include the jqGrid Class
+require_once JS_DIR."/jqGrid.php";
+// include the driver class
 require_once CLASS_DIR . 'patientClass.php';
 $objdb = new mysqlDatabaseClass();
 $objpt = new patientClass();

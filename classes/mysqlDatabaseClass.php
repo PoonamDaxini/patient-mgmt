@@ -14,7 +14,7 @@ class mysqlDatabaseClass {
     function __construct() {
         $this->dbHost = '127.0.0.1';
         $this->dbUser = 'root';
-        $this->dbPass = '';
+        $this->dbPass = 'thakkar';
         $this->dbName = 'patient';
         $this->link = mysql_connect($this->dbHost, $this->dbUser, $this->dbPass) or die("db error");
         mysql_select_db($this->dbName);
